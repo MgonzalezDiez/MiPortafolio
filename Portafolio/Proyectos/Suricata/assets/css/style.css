@@ -1,0 +1,105 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.div-show{
+    display: block;
+}
+@media only screen and (max-width: 576px){
+    .div-show{
+        display: none;
+    }   
+}
+
+.navbar-pink{
+    background:#e83e8c;
+}
+
+.nav-link{
+    color: #fff;
+}
+.navbar-brand{
+    height: 80px;
+    width: auto;
+}
+
+.navbar-pink .navbar-brand img{
+    margin-left: 119px;
+    width: 132px;
+    height: 53px;
+}
+
+.title{
+    margin-top: 139px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 1;
+}
+
+.card-titulo{
+    font: Bold 17px;
+    letter-spacing: 0;
+    color: #373A3C;
+}
+
+.card-texto{
+    font: Regular 16px;
+    letter-spacing: 0;
+    color: #373A3C;
+    opacity: 1;
+}
+
+.card-pie{
+    font: Regular 11px;
+    letter-spacing: 0;
+    color: #373A3C;
+    opacity: 1;
+}
+
+.cont-productos .card{
+    margin-bottom: 1em;
+}
+
+.footbar1{
+    background: #17A2B8 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.footbar2{
+    height: 184px;
+    opacity: 1;
+    padding-top: 30px;;
+}
+
+.cardtitle{
+    padding-top: 50px;
+    margin-left: auto;
+    width: 350px;
+    height: 55px;
+    color: white;
+}
+.fab{
+    color: white;
+}
+
+.navbar-pink  img {
+    width: 53x;
+    height: 100px;
+}
+
+.cards-title{
+    text-align: left;
+    font: Bold 40px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1
+}
+.cards-pos{
+    text-align: center;
+}
