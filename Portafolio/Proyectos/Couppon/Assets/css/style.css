@@ -1,0 +1,83 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-color{
+    background: #28A745;
+}
+.navbar-brand{
+    height: 62px;
+    width: auto;
+}
+
+.logo{
+    margin-top: 19px;
+    width: 86px;
+    height: 25px;
+}
+
+.card-pos{
+    width: 320px;
+    height: 2910px;
+}
+.card-titulo{
+    color: #212529;
+    font-size: 20px;
+    text-align: left;
+}
+.card-titulo2{
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 1;
+    margin-bottom: 2px;
+}
+
+.card-texto{
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 1;
+}
+
+
+.card-footer .row .card-price1{
+    padding-top: 30px;
+    text-align: right;
+    font-size: 16px;
+    color: #707070;
+}
+
+.card-footer .row .card-price2{
+    text-align: right;
+    font-size: 20px;
+    color: #28A745;
+}
+
+.form-spec{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    background: #28A745;
+}
+
+.form-spec p{
+    padding-top: 10px;
+    text-align: center;
+    color: white    
+}
+
+.card-footer .row{
+    text-align: right;
+}
+
+.form-foot{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    background: #ffffff;
+}
+
+::placeholder {
+  color: #707070;
+}
