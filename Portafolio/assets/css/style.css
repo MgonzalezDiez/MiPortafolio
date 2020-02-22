@@ -183,131 +183,56 @@ section h2 {
         font-weight: 400;
         font-size: 37px;
     }
+    .jumbotron {
+        background-image: url(/assets/img/IMG_20190128_182720.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 100px;
+        
+    }
 
-    .img-principal {
-        margin-left: 37px;
-        margin-right: 37px;
+    .jumbotron background-image {
         width: 100%;
     }
-
-    #principal h2 {
-        font-family: 'Cabin', bold;
-        font-weight: 700;
-        font-size: 30px;
-        margin-top: 15px;
-        text-align: center;
-        max-width: 100%;
-        text-decoration: none;
+    .navbar-brand,
+    .navbar-brand img {
+        width: 70px;
+        padding: 0;
+        margin: 0 !important;
+    }
+    .jumbotron h1{
+        font-size: medium;
+    }
+    .jumbotron h2{
+        font-size: medium;
+    }
+    .jumbotron h3{
+        font-size: medium;
+    }
+    .jumbotron #data{
+        column-width: 4; 
+        margin-right: auto;
+    }
+    #section1 h2{
+        font-size: medium;
+    }
+    #section1 h3{
+        font-size: medium;
+    }
+    .ml-auto{
+        margin-right: auto;
+    }
+    /* .text-title,
+    .text-desc {
+        background-color: rgba(0, 0, 0, 0.25);
+        border-radius: 6px;
+        padding: 15px;
     }
 
-    #principal h5 {
-        font-family: 'Cabin', bold;
-        font-weight: 700;
-        font-size: 16px;
-        margin-top: 10px;
-        text-align: center;
-    }
-
-    #principal p {
-        text-align: center;
-    }
-
-    #principal .button-text {
-        font-size: 13px;
-        font-family: 'Cabin';
-        font-weight: 400;
-        color: #373A3C;
-        border-color: #DDDDDD;
-        width: 125px;
-        height: 40px;
-    }
-
-    #relacionadas .recetas_rel h2 {
-        margin-top: 40px;
-        font-family: 'Cabin';
-        font-size: 40px;
-        font-weight: 700;
-    }
-
-    #relacionadas h5 {
-        font-family: 'Cabin';
-        font-size: 23px;
-        font-weight: 700;
-    }
-
-    #relacionadas .top-tarjeta{
-        margin-top: 40px;
-        margin-bottom: 0px;
-    }
-
-    #ingredientes {
-        font-family: 'Cabin';
-        margin-top: 40px;
-    }
-
-    #ingredientes h2 {
-        margin-top: 15px;
-        text-align: left;
-        font-size: 35px;
-        font-weight: 700;
-        text-decoration: none;
-    }
-
-    #ingredientes h3 {
-        margin-top: 40px;
-        text-align: left;
-        font-size: 25px;
-        font-weight: 700;
-        text-align: left;
-    }
-
-    #ingredientes p {
-        margin-top: 40px;
-        text-align: left;
-        font-size: 20px;
-        font-weight: 400;
-    }
-
-    #ingredientes .lista {
-        margin: 10px;
-        list-style-type: none;
-        display: inline;
-    }
-
-    #relacionadas .container .card {
-        margin-top: 20px;
-    }
-
-    .card-body p {
-        font-family: 'Cabin';
-    }
-
-    .form-spec {
-        color: #FFFFFF;
-        font-family: 'Cabin';
-        text-align: center;
-    }
-
-    .form-spec h2 {
-        padding-top: 7rem;
-
-        font-size: 35px;
-    }
-
-    .form-spec p {
-        margin-top: 35px;
-        color: #FFFFFF;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .form-spec button {
-        margin-top: 10px;
-        font-size: 18px;
-        color: #ffffff;
-        width: 68%;
-        height: 40px;
-        border-color: #DDDDDD;
-    }
-
+    .text-title hr,
+    .text-title hr {
+        border-top: 2px solid white;
+    } */
 }
+
+

@@ -9,26 +9,21 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Belleza|Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Belleza,Open+Sans:400,700&display=swap" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/caja_hover.css" rel="stylesheet">
 </head>
 
 <body>
     <header class="container-fluid">
-        <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <nav class="navbar navbar-expand-md bg-dark fixed-top navbar-dark">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="assets/img/Logo MGD1.png"></a>
+                <a class="navbar-brand" href="#"><img src="assets/img/LogoMGD1.png"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button> -->
-
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
@@ -62,8 +57,8 @@
                         </div>
 
                     </div>
-                    <div class="row">
-                        <div class="col-3 text-desc ml-auto">
+                    <div class="row" id="data">
+                        <div class="col-12 col-md-3 text-desc ml-auto">
                             <p>Me apasiona desarrollar, investigar y adoptar nuevas tecnologías, enfrentar
                                 nuevos desafíos día a día, crecer profesionalmente </p>
                             <hr>
@@ -109,7 +104,6 @@
                     </p>
                     <p><b>(Visual Basic 6.0 - DB2 - SQL Server 2012 - C# .NET - Java)</b></p>
 
-                    <h2 class="text-center" style="padding-top: 10px;"></h2>
                     <h3>JEFE DE INFORMÁTICA</h3>
                     <h4>Pillín S.A.</h4>
 
@@ -132,13 +126,13 @@
                     <div class="row mt-30">
                         <div class="col-md-4 col-sm-6">
                             <div class="box14">
-                                <img src="assets/img/we-work.jpg" alt="">
+                                <img src="assets/img/we-work.jpg" alt="" class="img-fluid">
                                 <div class="box-content">
                                     <h3 class="title">Meet & Coffee</h3>
                                     <span class="post">Juntémosnos a trabajar</span>
                                     <ul class="icon">
-                                        <li><a data-toggle="modal" data-target="#meetcoffee"><i
-                                                    class="fa fa-search"></i></a></li>
+                                        <!-- <li><a data-toggle="modal" data-target="#meetcoffee"><i
+                                                    class="fa fa-search"></i></a></li> -->
                                         <li><a href="/Proyectos/MeetCoffee/index.html" target="_blank"><i
                                                     class="fa fa-link"></i></a>
                                         </li>
@@ -148,7 +142,7 @@
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="box14">
-                                <img src="assets/img/bg-header.jpg" alt="">
+                                <img src="assets/img/bg-header.jpg" alt="" class="img-fluid">
                                 <div class="box-content">
                                     <h3 class="title">Iguana</h3>
                                     <span class="post">Información sobre Iguanas</span>
@@ -161,7 +155,7 @@
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="box14">
-                                <img src="assets/img/colaciones.jpg" alt="">
+                                <img src="assets/img/colaciones.jpg" alt="" class="img-fluid">
                                 <div class="box-content">
                                     <h3 class="title">Suricata</h3>
                                     <span class="post">Ofertas en Gestronomía</span>
@@ -176,7 +170,7 @@
                     <div class="row mt-3">
                         <div class="col-md-4 col-sm-6">
                             <div class="box14">
-                                <img src="assets/img/cupon-1.jpg" alt="">
+                                <img src="assets/img/cupon-1.jpg" alt="" class="img-fluid">
                                 <div class="box-content">
                                     <h3 class="title"> Coupon</h3>
                                     <span class="post"> Sitio de Ofertas</span>
@@ -189,7 +183,7 @@
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="box14">
-                                <img src="assets/img/Ricomida.jpg" alt="">
+                                <img src="assets/img/Ricomida.jpg" alt="" class="img-fluid">
                                 <div class="box-content">
                                     <h3 class="title"> Ricomida</h3>
                                     <span class="post">Ofertas Gastronómicas</span>
@@ -206,6 +200,14 @@
         </section>
 
         <section id="form">
+            <div id="contacto" class="container text-center pt-5">
+                <a class="typeform-share button" href="https://mgonzalezdiez.typeform.com/to/E4FYKq" data-mode="popup"
+                    style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:15px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
+                    target="_blank">Contacto</a>
+                <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
+            </div>
+        </section>
+        <!-- <section id="form">
             <div id="contacto" class="container">
                 <div class="container">
                     <form>
@@ -225,7 +227,7 @@
                     </form>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section id="section-5">
             <div class="container">
@@ -235,25 +237,25 @@
                         Una de mis pasiones es la música, especialmente el Rock de todos los tiempos.
                     </h5>
 
-                    <div id="carousel" class="mt-5 d-none d-md-block">
-                        <div class="container">
+                    <div id="carousel" class="mt-5 d-md-block">
+                        <div class="container-fluid">
                             <h3>Pink Floyd</h3>
-                            <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
+                            <div id="carouselFade1" class="carousel slide carousel-fade" data-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <div class="row">
-                                            <div class="col-md-3">
+                                            <div class="col-12 col-md-3">
                                                 <img src="assets/img/PF-Animals.svg" class="d-block w-100" alt="...">
                                                 <a href="https://www.youtube.com/watch?v=4PoC5XV6PrE&t=21s">Animals</a>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-12 col-md-3">
                                                 <img src="assets/img/PF-Dark_Side_of_the_Moon.svg" class="d-block w-100"
                                                     alt="...">
                                                 <a
                                                     href="https://www.youtube.com/watch?v=HW-lXjOyUWo&list=PL3PhWT10BW3Urh8ZXXpuU9h526ChwgWKy&index=1">The
                                                     Dark side of the Moon</a>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-12 col-md-3">
                                                 <img src="assets/img/PF-A_Momentary_Lapse_Of_Reason.svg"
                                                     class="d-block w-100" alt="...">
                                                 <a
@@ -261,7 +263,7 @@
                                                     of Life (A Momentary Lapse of Reason)</a>
 
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-12 col-md-3">
                                                 <img src="assets/img/PF-Pulse.svg" class="d-block w-100" alt="...">
                                                 <a
                                                     href="https://www.youtube.com/watch?v=VyLY8YDWzrQ&list=PLrJ6b7vTnAPaBoscn3139zw_FICNMqddB">Pulse</a>
@@ -271,25 +273,25 @@
 
                                     <div class="carousel-item">
                                         <div class="row">
-                                            <div class="col-md-3">
+                                            <div class="col-12 col-md-3">
                                                 <img src="assets/img/PF-The_Division_Bell.svg" class="d-block w-100"
                                                     alt="...">
                                                 <a href="https://www.youtube.com/watch?v=ycYewhiaVBk">The Division
                                                     Bell</a>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="ccol-12 ol-md-3">
                                                 <img src="assets/img/PF-The_Final_Cut.svg" class="d-block w-100"
                                                     alt="...">
                                                 <a href="https://www.youtube.com/watch?v=UxgZnVTyWRk">The Final Cut</a>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-12 col-md-3">
                                                 <img src="assets/img/PF-The_Wall.svg" class="d-block w-100" alt="...">
                                                 <a href="https://www.youtube.com/watch?v=J8fFVOoqepc"
                                                     target="_blank">Comfortably Numb - The Wall
                                                 </a>
 
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-12 col-md-3">
                                                 <img src="assets/img/PF-Wish_You_Were_Here.svg" class="d-block w-100"
                                                     alt="...">
                                                 <a href="https://www.youtube.com/watch?v=rnNhWHDNNJg">Wish You Were
@@ -377,15 +379,6 @@
                 </div>
             </div>
         </section>
-
-        <section id="section-6">
-            <div class="container">
-                <div id="intereses" class="container">
-                    <h3 class="text-center" style="padding-top: 50px;">Sección 6</h3>
-                    Intereses
-                </div>
-            </div>
-        </section>
     </main>
 
     <footer class="oscuro text-center">
@@ -400,7 +393,7 @@
     </footer>
 
     <!-- Formularios Modal -->
-    <div class="modal fullscreen-modal fade" id="meetcoffee" tabindex="-1" role="dialog"
+    <!-- <div class="modal fullscreen-modal fade" id="meetcoffee" tabindex="-1" role="dialog"
         aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-full" role="document" class="modal-dialog">
             <div class="modal-content modal-fullscreen">
@@ -411,14 +404,14 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <iframe src="Proyectos/MeetCoffee/index.html" width="100%" frameborder="0"></iframe>
+                    <iframe src="Proyectos/MeetCoffee/index.html" width="100" frameborder="0"></iframe>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"

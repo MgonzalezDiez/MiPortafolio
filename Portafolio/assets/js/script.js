@@ -5,10 +5,22 @@ $(document).ready(function () {
 
         if (target.length) {
             event.preventDefault();
-            $('html, body').animate({
-                scrollTop: target.offset().top - 100
-            }, 1000);
+            if ($(window).width() < 400) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top - 100
+                }, 1000);
+            }
+            else {
+                $('html, body').animate({
+                    scrollTop: target.offset().top - 100
+                }, 1000);
+            }
         }
-
     });
+
+    $(".nav-link").click(
+        function () {
+            $('.navbar-collapse').collapse('hide');
+        }
+    );
 })
